@@ -1,0 +1,63 @@
+
+  .wallaah{
+    text-align: center;
+  }
+
+  /* styles/styles.css */
+
+  
+  /* Container for forms */
+  .form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  /* Form Titles */
+  .form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  /* Input Fields */
+  .form-container input, 
+  .form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Submit Button */
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0c8d86;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-container button:hover {
+    background-color: #0c8d86;
+  }
+  
+  /* Link Style */
+  .form-container a {
+    display: block;
+    margin-top: 10px;
+    color: #0c8d86;
+    text-decoration: none;
+  }
+  
+  .form-container a:hover {
+    text-decoration: underline;
+  }
+  

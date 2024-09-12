@@ -1,0 +1,89 @@
+.ProductList h2 {
+    padding: 100px;
+}
+.ProductList .container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ProductList .col-3{
+    width: 33%;
+    padding: 20px;
+}
+.ProductList .card{
+    background-color: #f5f5f5;
+
+}
+
+
+  /* تصميم البطاقة */
+  .card {
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف للبطاقة */
+    border-radius: 8px; /* حواف مستديرة */
+    overflow: hidden; /* لتجنب تجاوز المحتوى */
+    transition: transform 0.2s; /* تأثير تكبير عند التمرير */
+    background-color: #fff; /* لون خلفية البطاقة */
+    text-align: center; /* توسيط النص */
+  }
+  
+  /* تكبير البطاقة عند التمرير */
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* صورة البطاقة */
+  .card-img-top {
+    width: 100%; /* عرض كامل للصورة */
+    height: 200px; /* ارتفاع محدد للصورة */
+    object-fit: cover; /* تعبئة الصورة لتناسب الحاوية */
+  }
+  
+  /* جسم البطاقة */
+  .card-body {
+    padding: 16px;
+  }
+  
+  /* عنوان البطاقة */
+  .card-title {
+    font-size: 1.2em;
+    margin: 8px 0;
+    color: #333;
+  }
+  
+  /* نص البطاقة */
+  .card-text {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 16px;
+  }
+  
+  /* زر البطاقة */
+  .btn-primary {
+    background-color: #047b53;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: #ffffff;
+     transition: background-color 0.2s;
+  }
+  
+  /* تغيير لون الزر عند التمرير */
+  .btn-primary:hover {
+    background-color: #046846;
+  }
+  .namm{
+    margin: 0 10px;
+    margin-bottom: 60px;
+  }
+  
+/* =====================================
+  4- Responsive Design (media query)
+======================================== */
+@media (max-width: 900px) {
+    .ProductList  .col-3{
+        width: 100%;
+    }
+    
+  }
+  
